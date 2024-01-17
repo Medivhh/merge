@@ -10,6 +10,10 @@ export default function mergeArrays(
     if (collection1[i] < collection2[j]) {
       mergedArray.push(collection1[i]);
       i++;
+    } else if (collection1[i] == collection2[j]) {
+      mergedArray.push(collection2[i]);
+      i++;
+      j++;
     } else {
       mergedArray.push(collection2[j]);
       j++;

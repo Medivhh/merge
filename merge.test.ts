@@ -24,4 +24,11 @@ describe("merge arrays function", () => {
 
     expect(result).toEqual([]);
   });
+  it("merge 2  arrays  with duplicate elements", () => {
+    const array1 = [2, 4, 6, 8, 10];
+    const array2 = [2, 4, 6, 8, 10];
+    const result = merge(array1, array2);
+
+    expect(result).toEqual([2, 4, 6, 8, 10]);
+  });
 });
