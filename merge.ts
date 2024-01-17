@@ -33,9 +33,7 @@ const mergedArray1 = mergeArrays(collection_1, collection_2);
 
 console.log("case 1: " + mergedArray1);
 
-console.log(
-  "============================================================================"
-);
+console.log();
 const collection_3 = [1, 1, 1, 1, 9, 9, 9, 10, 11];
 const collection_4 = [0, 1, 6, 8, 10];
 
