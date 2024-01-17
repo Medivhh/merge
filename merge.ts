@@ -26,7 +26,7 @@ function mergeArrays(collection1: number[], collection2: number[]): number[] {
   return mergedArray;
 }
 // TEST CASE
-const collection_1 = [1, 3, 5, 7];
+const collection_1 = [1, 3, 5, 7, 9];
 const collection_2 = [2, 4, 6, 8, 10];
 
 const mergedArray1 = mergeArrays(collection_1, collection_2);
